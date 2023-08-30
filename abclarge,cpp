@@ -1,0 +1,16 @@
+#include<isotream>
+using namepace std;
+int main()
+{
+    int a,b,c;
+    cout<<"enter a,b,c:";
+    cin>>a>>b>>c;
+    if(a>b && a>c)
+    cout<<"largest no <<a:"<<a;
+
+    else if(b>c)
+    cout<<"largest no <<b:"<<b;
+
+    else
+    cout<<"largest no <<c:"<<c;
+}
