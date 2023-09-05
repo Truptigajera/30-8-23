@@ -9,7 +9,7 @@ class test
     void hello()
     {
         a=50;
-        cout<<"Hello"<<end;
+        cout<<"Hello"<<endl;
         cout<<"value of a:"<<a;
     }
 };
