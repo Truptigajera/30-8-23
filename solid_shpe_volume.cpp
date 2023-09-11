@@ -11,12 +11,12 @@ class volume{
     volume(int l){
         cout<<"cube volume is:"<<l*l*l<<endl;
             }
-    volume(double r, double h){
-        cout<<"cylinder volume is:"<<3.14*r*r*h<<endl;
+    volume(int r, int h){
+        cout<<"cylinder volume is:"<<r*r*h<<endl;
     }
 
 };
 int main()
 {
-    volume a(5,10,20), b(5), c(10,20);
+    volume a(5,10,20), b(5), c(10,10);
 }

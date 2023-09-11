@@ -11,11 +11,11 @@ class area{
     area(int l){
         cout<<" Square area is:"<<l*l<<endl;
             }
-    area(double b, double h){
-        cout<<"triangle area is:"<<0.5*b*h<<endl;
+    area(double b, double h,double a){
+        cout<<"triangle area is:"<<a*b*h<<endl;
     }
-    area(double r){
-        cout<<"circle area is:"<<3.14*r*r<<endl;
+    area(int r,double a){
+        cout<<"circle area is:"<<a*r*r<<endl;
     }
 
 
@@ -25,7 +25,7 @@ int main()
     area d();
     area r(10,20);
     area s(20);
-    area t(10,20);
-    area c(10);
+    area t(10.5,20.5,0.5);
+    area c(10,3.14);
 }
 
